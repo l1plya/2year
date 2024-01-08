@@ -37,3 +37,15 @@ body {
     display: block;
     margin-top: 20px;
   }
+
+  @media (max-width: 600px) {
+    .product-card {
+      max-width: 100%;
+      margin-right: 0; 
+    }
+  
+    body {
+      flex-direction: column; 
+      align-items: stretch; 
+    }
+  }
